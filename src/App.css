@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.values {
+  display: flex;
+  column-gap: 10px;
+}
+
+.values input {
+  width: 100%;
+  padding: 4px 8px;
+}
+
+.colors {
+  display: flex;
+  gap: 1rem;
+}
+
+.colors label {
+  display: flex;
+  margin-bottom: 0;
+  gap: 4px;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 0;
+}
+
+table,
+input,
+label {
+  font-size: 1.2rem;
+  font-family: monospace;
+  margin-bottom: 0.5rem;
+}
+
+table {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+tbody th {
+  font-weight: 400;
+}
+
+td {
+  padding: 0.3rem;
+}
+
+th {
+  padding-left: 1rem;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+input[type="number"] {
+  display: block;
+}
