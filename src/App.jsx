@@ -6,7 +6,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="container">
-      <h1>Shopping Filter</h1>
+      <h1>Product Filters</h1>
       <Filter />
       <Products />
     </div>
